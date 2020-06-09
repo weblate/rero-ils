@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rero-ils 0.8.0\n"
 "Report-Msgid-Bugs-To: software@rero.ch\n"
-"POT-Creation-Date: 2020-06-19 16:26+0200\n"
+"POT-Creation-Date: 2020-06-24 07:36+0200\n"
 "PO-Revision-Date: 2018-09-03 13:16+0000\n"
 "Last-Translator: Peter Weber <peter.weber@rero.ch>, 2020\n"
 "Language: de\n"
@@ -27,82 +27,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: rero_ils/config.py:121
+#: rero_ils/config.py:122
 #: rero_ils/modules/patrons/jsonschemas/patrons/patron-v0.0.1.json:266
 #: rero_ils/modules/vendors/jsonschemas/vendors/vendor-v0.0.1.json:80
 msgid "French"
 msgstr "Französisch"
 
-#: rero_ils/config.py:122
+#: rero_ils/config.py:123
 #: rero_ils/modules/patrons/jsonschemas/patrons/patron-v0.0.1.json:274
 #: rero_ils/modules/vendors/jsonschemas/vendors/vendor-v0.0.1.json:92
 msgid "German"
 msgstr "Deutsch"
 
-#: rero_ils/config.py:123
+#: rero_ils/config.py:124
 #: rero_ils/modules/patrons/jsonschemas/patrons/patron-v0.0.1.json:278
 #: rero_ils/modules/vendors/jsonschemas/vendors/vendor-v0.0.1.json:88
 msgid "Italian"
 msgstr "Italienisch"
 
-#: rero_ils/config.py:174 rero_ils/config.py:178
+#: rero_ils/config.py:175 rero_ils/config.py:179
 msgid "rero-ils"
 msgstr "rero-ils"
 
-#: rero_ils/config.py:225
+#: rero_ils/config.py:226
 msgid "Welcome to RERO-ILS!"
 msgstr "Willkommen zu RERO ILS!"
 
-#: rero_ils/config.py:1181
+#: rero_ils/config.py:1251
 msgid "document_type"
 msgstr "Dokumenttyp"
 
-#: rero_ils/config.py:1182
+#: rero_ils/config.py:1252
 msgid "organisation"
 msgstr "Organisation"
 
-#: rero_ils/config.py:1185 rero_ils/config.py:1229 rero_ils/config.py:1251
-#: rero_ils/config.py:1273
+#: rero_ils/config.py:1255 rero_ils/config.py:1299 rero_ils/config.py:1321
+#: rero_ils/config.py:1343
 msgid "library"
 msgstr "Bibliothek"
 
-#: rero_ils/config.py:1186
+#: rero_ils/config.py:1256
 msgid "author__en"
 msgstr "Autor"
 
-#: rero_ils/config.py:1187
+#: rero_ils/config.py:1257
 msgid "author__fr"
 msgstr "Autor"
 
-#: rero_ils/config.py:1188
+#: rero_ils/config.py:1258
 msgid "author__de"
 msgstr "Autor"
 
-#: rero_ils/config.py:1189
+#: rero_ils/config.py:1259
 msgid "author__it"
 msgstr "Autor"
 
-#: rero_ils/config.py:1190
+#: rero_ils/config.py:1260
 msgid "language"
 msgstr "Sprache"
 
-#: rero_ils/config.py:1191
+#: rero_ils/config.py:1261
 msgid "subject"
 msgstr "Schlagwort"
 
-#: rero_ils/config.py:1192 rero_ils/config.py:1252 rero_ils/config.py:1274
+#: rero_ils/config.py:1262 rero_ils/config.py:1322 rero_ils/config.py:1344
 msgid "status"
 msgstr "Status"
 
-#: rero_ils/config.py:1208
+#: rero_ils/config.py:1278
 msgid "roles"
 msgstr "Rollen"
 
-#: rero_ils/config.py:1230
+#: rero_ils/config.py:1300
 msgid "budget"
 msgstr "Budget"
 
-#: rero_ils/config.py:1290
+#: rero_ils/config.py:1360
 msgid "sources"
 msgstr "Quellen"
 
@@ -5834,12 +5834,14 @@ msgid "The barcode is already taken."
 msgstr "Der Barcode ist bereits vergeben."
 
 #: rero_ils/modules/items/jsonschemas/items/item-v0.0.1.json:91
+#, fuzzy
 msgid "Item Type"
-msgstr "Exemplartyp"
+msgstr "Exemplar Typ"
 
 #: rero_ils/modules/items/jsonschemas/items/item-v0.0.1.json:92
+#, fuzzy
 msgid "Item type of the item."
-msgstr "Exemplartyp des Exemplars"
+msgstr "Name des Exemplartypen."
 
 #: rero_ils/modules/items/jsonschemas/items/item-v0.0.1.json:99
 msgid "Item Type URI"
@@ -5866,7 +5868,6 @@ msgid "public note"
 msgstr ""
 
 #: rero_ils/modules/items/jsonschemas/items/item-v0.0.1.json:207
-
 msgid "staff note"
 msgstr ""
 
@@ -6992,6 +6993,26 @@ msgstr "Neu bei %(sitename)s?"
 msgid "Forgot password?"
 msgstr "Passwort vergessen?"
 
+#: rero_ils/templates/rero_ils/oauth_login_user.html:25
+#, python-format
+msgid "Sign in with %(title)s"
+msgstr ""
+
+#: rero_ils/templates/rero_ils/oauth_login_user.html:35
+msgid "&mdash; OR &mdash;"
+msgstr ""
+
+#: rero_ils/templates/rero_ils/oauth_signup.html:34
+#, python-format
+msgid "Sign-up with %(title)s!"
+msgstr ""
+
+#: rero_ils/templates/rero_ils/oauth_signup.html:35
+msgid ""
+"Fill in your details to complete your registration. You only have to do "
+"this once."
+msgstr ""
+
 #: rero_ils/templates/rero_ils/page.html:49
 msgid "Invenio"
 msgstr "Invenio"
@@ -7053,5 +7074,86 @@ msgstr "Hier klicken um Passwort zurückzusetzen."
 #~ msgstr "Wert"
 
 #~ msgid "Should be in the ISO 8601, YYYY-MM-DD."
+#~ msgstr ""
+
+#~ msgid "Item Type"
+#~ msgstr "Exemplartyp"
+
+#~ msgid "Item type of the item."
+#~ msgstr "Exemplartyp des Exemplars"
+
+#~ msgid "Frequency"
+#~ msgstr ""
+
+#~ msgid "Annual"
+#~ msgstr ""
+
+#~ msgid "Biennial"
+#~ msgstr ""
+
+#~ msgid "Bimonthly"
+#~ msgstr ""
+
+#~ msgid "Biweekly"
+#~ msgstr ""
+
+#~ msgid "Daily"
+#~ msgstr ""
+
+#~ msgid "Irregular"
+#~ msgstr ""
+
+#~ msgid "Monthly"
+#~ msgstr ""
+
+#~ msgid "Quarterly"
+#~ msgstr ""
+
+#~ msgid "Semiannual"
+#~ msgstr ""
+
+#~ msgid "Semimonthly"
+#~ msgstr ""
+
+#~ msgid "Semiweekly"
+#~ msgstr ""
+
+#~ msgid "Three times a month"
+#~ msgstr ""
+
+#~ msgid "Three times a week"
+#~ msgstr ""
+
+#~ msgid "Three times a year"
+#~ msgstr ""
+
+#~ msgid "Triennial"
+#~ msgstr ""
+
+#~ msgid "Weekly"
+#~ msgstr ""
+
+#~ msgid "The expected date for the next issue"
+#~ msgstr ""
+
+#~ msgid "Circulation category of the item"
+#~ msgstr ""
+
+#~ msgid "Issue"
+#~ msgstr ""
+
+#~ msgid "Issue status"
+#~ msgstr ""
+
+#~ msgid "displayed text"
+#~ msgstr ""
+
+#~ msgid "Date of reception"
+#~ msgstr ""
+
+#~ msgid "Expected date"
+#~ msgstr ""
+
+#~ msgid "Regularity"
 #~ msgstr ""
 
